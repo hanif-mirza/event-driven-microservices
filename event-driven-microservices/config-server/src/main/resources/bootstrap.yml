@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://C:/Hanif-Data/Works/Workspaces/udemy-courses/Event-Driven-Microservices/event-driven-microservices
+          clone-on-start: true
+      fail-fast: true
